@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Website Designe</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="responsive.css" />
+	<style>
+
+	.moni{
+		width:300px;
+		height:300px;
+		background:red;
+		margin-right:20px;
+		margin-top:20px;
+		float:left;
+	}
+@media (max-width:450px){
+	.moni{
+		width:100%;
+		background:green;
+	}
+}
+@media (min-width:451px) and (max-width:556px){
+	.moni{
+		width:100%;
+		background:blue;
+	}
+}
+@media (min-width:557px) and (max-width:991px){
+	.moni{
+		width:30%;
+		margin-top:3.33%;
+		background:black;
+	}
+}
+@media (min-width:1025px){
+	.moni{
+		background:orange;
+	}
+}		
+	</style>
+</head>
+<body>
+	<div class="moni"></div>
+	<div class="moni"></div>
+	<div class="moni"></div>
+</body>
+</html>
